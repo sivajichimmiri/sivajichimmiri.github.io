@@ -1,41 +1,743 @@
-
 <!DOCTYPE html>
-<html>
-<head>
-  <title>My Profile</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      background-color: #f4f4f4;
-      text-align: center;
-      padding: 40px;
-    }
-    .card {
-      background: white;
-      padding: 30px;
-      border-radius: 10px;
-      max-width: 500px;
-      margin: auto;
-    }
-    img {
-      border-radius: 50%;
-      width: 150px;
-    }
-  </style>
-</head>
-<body>
+<html lang="en">
+    <head>
+        <!-- META TAG -->
+        <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+        <meta charset="utf-8" />
 
-<div class="card">
-  <h1>SivajiChimmiri</h1>
-  <p><b>Role:</b> IT / Professional</p>
-  <p>I am passionate about learning, teaching, and technology.</p>
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+        <meta name="description" content="CV, Portfolio, Resume, curriculum vitae, Rajendra Singh" />
+        <meta name="author" content="Rajendra Singh, Software Engineer" />
 
-  <h3>Skills</h3>
-  <p>C/C++</p>
+        <!-- TITLE OF SITE-->
+        <title>Portfolio: Rajendra Singh</title>
 
-  <h3>Contact</h3>
-  <p>Email: sivajichimmiritech@gmail.com</p>
-</div>
+        <!-- FAVICON -->
+        <link rel="icon" href="assets/img/favicon.ico" />
 
-</body>
+        <!-- Style-sheets -->
+
+        <!-- BOOTSTRAP CORE STYLE CSS -->
+        <link href="assets/css/bootstrap.css" rel="stylesheet" />
+        <!-- FONTAWESOME STYLE CSS -->
+        <link href="assets/css/all.css" rel="stylesheet" />
+        <!-- CUSTOM STYLE CSS -->
+        <link href="assets/css/style.css" rel="stylesheet" />
+
+        <!-- Adsense -->
+        <script data-ad-client="pub-6022745058990928" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    </head>
+
+    <body>
+        <!-- NAV SECTION -->
+        <div class="navbar navbar-inverse navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">RAJENDRA SINGH</a>
+                </div>
+                <div class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#work-ex">Work Experience</a></li>
+                        <li><a href="#education">Education</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!--END NAV SECTION -->
+
+        <!--ABOUT SECTION-->
+        <section id="about">
+            <div class="container">
+                <div class="col l12 m12 s12 skills sidebar-item card">
+                    <div class="row g-pad-bottom">
+                        <div class="col-md-4">
+                            <div class="profile-img" id="profile-img">
+                                <a href="index.html"><img src="assets/img/profile-img.jpg" class="responsive-img" alt="" /></a>
+                            </div>
+                            <hr />
+                            <div>
+                                <ul class="profile-list">
+                                    <li class="clearfix">
+                                        <strong class="title"><i class="fa fa-home icon"></i> Address</strong>
+                                        <span class="cont">Bengluru, Karnataka, India - 560076</span>
+                                    </li>
+                                    <li class="clearfix">
+                                        <strong class="title"><i class="fa fa-envelope icon"></i> E-mail</strong>
+                                        <span class="cont"><a href="mailto:singh.rajen15@gmail.com">singh.rajen15@gmail.com</a></span>
+                                    </li>
+                                    <li class="clearfix">
+                                        <strong class="title"><i class="fa fa-phone icon"></i> Phone</strong>
+                                        <span class="cont"><a href="tel:+91-8088978044">+91-8088 97 8044</a></span>
+                                    </li>
+                                </ul>
+                            </div>
+                            <hr />
+                            <div class="profile-social">
+                                <ul class="social">
+                                    <li>
+                                        <a class="ripple-centered" href="https://api.whatsapp.com/send?phone=+918088978044&text=Hello%21" target="_blank">
+                                            <i class="fab fa-2x fa-whatsapp" data-position="top" data-delay="50" data-tooltip="whatsApp"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="ripple-centered" href="https://www.facebook.com/SinghRajenM/" target="_blank">
+                                            <i class="fab fa-2x fa-facebook" data-position="top" data-delay="50" data-tooltip="Facebook"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="ripple-centered" href="https://twitter.com/SinghRajenM/" target="_blank">
+                                            <i class="fab fa-2x fa-twitter" data-position="top" data-delay="50" data-tooltip="twitter"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="ripple-centered" href="https://www.linkedin.com/in/SinghRajenM/" target="_blank">
+                                            <i class="fab fa-2x fa-linkedin" data-position="top" data-delay="50" data-tooltip="linkedIn"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="ripple-centered" href="https://github.com/SinghRajenM" target="_blank">
+                                            <i class="fab fa-2x fa-github" data-position="top" data-delay="50" data-tooltip="GitHub"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-md-8">
+                            <h3>A SOFTWARE DEVELOPER</h3>
+                            <p align="justify">
+                                Hello, I am <b>Rajendra Singh</b>, a software developer with a <b>B.Tech</b> in <b>Computer Engineering</b> and over <b>14 years</b> of industry experience.
+                    I specialize in the analysis, design, and development of software applications for Windows, with expertise in designing, developing, debugging, integrating, and releasing end-to-end products.
+                            </p>
+                            <p align="justify">
+                                Currently, I am working at <b>ZScaler, Bengaluru</b> as <b>Senior Staff Engineer</b>. Over the years, I’ve had the opportunity to work with industry-leading organizations, including:
+                    <b>McAfee Software (India) Pvt. Ltd., Bengaluru</b> as Software Engineer,
+                    <b>HP Inc.</b> as Software Designer,
+                    <b>Samsung R&D Institute</b> as Technical Lead,
+                    <b>Honeywell Technology Solutions Lab</b> Software Engineer,
+                    <b>TRX Technologies</b> (acquired by Concur A SAP company) as Associate Software Engineer, and
+                    <b>Maruti Suzuki India Limited</b> as Diploma Engineer Trainee.
+                            </p>
+                            <p align="justify">
+                                Originally from a small village in the Sikar district of Rajasthan, I now reside in Bengaluru, Karnataka. Outside of work, I am an active open-source contributor and a hackathon enthusiast.
+                    I am also open to exploring new opportunities and can be reached via email or phone.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--END ABOUT SECTION-->
+
+        <!--WORK EXPERIENCE SECTION-->
+        <section id="work-ex">
+            <div class="container">
+                <div class="card">
+                    <div class="row g-pad-bottom">
+                        <div class="col-md-12 workEx-header text-center">
+                            <h2><i class="fas fa-suitcase" data-position="top" data-delay="50" data-tooltip="Work Experience"></i> Work Experience</h2>
+                        </div>
+
+                        <div class="col-md-12">
+                            <ul class="timeline">
+                                <!-- Zscaler -->
+                                <li class="timeline-inverted">
+                                    <!-- Modal -->
+                                    <div id="modalZscaler" class="modal fade" role="dialog">
+                                        <div class="modal-dialog">
+                                            <!-- Modal content-->
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                                    <h4 class="modal-title">Senior Staff Engineer <i class="fa fa-at" id=""></i> Zscaler</h4>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <p>
+                                                        I am currently working at <strong>Zscaler</strong> as a <strong>Senior Staff Engineer</strong>, where I focus on designing, developing, and optimizing cloud-based security solutions that empower organizations to securely transform their networks and applications.
+                                                    </p>
+                                                    <p>
+                                                        My responsibilities include architecting scalable software solutions, driving complex projects from concept to delivery, and collaborating with cross-functional teams to deliver cutting-edge security products. I leverage my expertise in Windows software development, cloud technologies, and network security to enhance Zscaler’s platform capabilities.
+                                                    </p>
+                                                    <p>
+                                                        I am also actively involved in mentoring junior engineers, conducting technical reviews, and promoting best practices for efficient and secure software development.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="timeline-badge">
+                                        <a><i class="fa fa-circle" id=""></i></a>
+                                    </div>
+                                    <div class="timeline-panel">
+                                        <div class="timeline-heading">
+                                            <img src="assets/img/logo_Zscaler.png" />
+                                            <h4>Zscaler, Bengaluru</h4>
+                                        </div>
+                                        <div class="timeline-body">
+                                            <ul class="profile-list">
+                                                <li class="clearfix">
+                                                    <strong class="title"><i class="fas fa-user-tie icon"></i> Designation</strong>
+                                                    <span class="cont">Senior Staff Engineer</span>
+                                                </li>
+                                                <li class="clearfix">
+                                                    <strong class="title"><i class="fa fa-briefcase icon"></i> Projects</strong>
+                                                    <span class="cont">Zscaler Client Connector</span>
+                                                </li>
+                                            </ul>
+                                            <p class="text-center">
+                                                <a href="#" class="btn btn-info" data-toggle="modal" data-target="#modalZscaler">More Info</a>
+                                            </p>
+                                        </div>
+                                        <div class="timeline-footer">
+                                            <p class="text-right current">Jul 2023 – Present</p>
+                                        </div>
+                                    </div>
+                                </li>
+
+                                <!-- Macfee -->
+                                <li class="timeline">
+                                    <!-- Modal -->
+                                    <div id="modalMcAfee" class="modal fade" role="dialog">
+                                        <div class="modal-dialog">
+                                            <!-- Modal content-->
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                                    <h4 class="modal-title">Senior Software Engineer <i class="fa fa-at" id=""></i> McAfee</h4>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <p>
+                                                        I joined at <strong>McAfee</strong> starting as a <strong>Software Engineer</strong> and later promoted to <strong>Senior Software Engineer</strong>.
+                                                    </p>
+                                                    <p>
+                                                        My primary responsibility was to design, develop, and maintain a cloud and machine learning-based virus scanner used across both enterprise and consumer products. This involved requirement analysis, architecture design, coding, unit testing, debugging, and performance optimization. 
+                                                        I collaborated closely with cross-functional teams, including threat research, data science, and cloud engineering, to deliver robust and efficient security solutions. My work focused on real-time threat detection, response mechanisms, and leveraging AI/ML algorithms to enhance detection accuracy and performance.
+                                                    </p>
+                                                    <p>
+                                                        Additionally, I was actively involved in code reviews, mentoring junior developers, and driving best practices for secure, high-performance software.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="timeline-badge">
+                                        <a><i class="fa fa-circle" id=""></i></a>
+                                    </div>
+                                    <div class="timeline-panel">
+                                        <div class="timeline-heading">
+                                            <img src="assets/img/logo_McAfee.png" />
+                                            <h4>McAfee Software India Pvt Ltd, Bengaluru</h4>
+                                        </div>
+                                        <div class="timeline-body">
+                                            <ul class="profile-list">
+                                                <li class="clearfix">
+                                                    <strong class="title"><i class="fas fa-user-tie icon"></i> Designation</strong>
+                                                    <span class="cont">Senior Software Engineer</span>
+                                                </li>
+                                                <li class="clearfix">
+                                                    <strong class="title"><i class="fa fa-briefcase icon"></i> Projects</strong>
+                                                    <span class="cont">Real Protect Virus Scanner, Real Protect for VirusTotal</span>
+                                                </li>
+                                            </ul>
+                                            <p class="text-center">
+                                                <a href="#" class="btn btn-info" data-toggle="modal" data-target="#modalMcAfee">More Info</a>
+                                            </p>
+                                        </div>
+                                        <div class="timeline-footer">
+                                            <p class="text-right current">Dec 2019 – Jul 2023</p>
+                                        </div>
+                                    </div>
+                                </li>
+
+                                <!-- HP -->
+                                <li class="timeline-inverted">
+                                    <!-- Modal -->
+                                    <div id="modalHP" class="modal fade" role="dialog">
+                                        <div class="modal-dialog">
+                                            <!-- Modal content-->
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                                    <h4 class="modal-title">Software Designer <i class="fa fa-at" id=""></i> HP</h4>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <p>
+                                                        I joined <strong>HP</strong> as a <strong>Software Designer (Specialist I)</strong> as part of the acquisition of Samsung’s printer division by HP. Initially, I continued working on Samsung printer applications until the transition process was complete, after which I handed over responsibilities to other team members.
+                                                    </p>
+                                                    <p>
+                                                        My primary focus at HP was the development of the HP Universal Printer Driver (HP’s flagship product). I also designed, developed, and maintained applications such as DDU (Driver Deployment Utility), DCU (Driver Configuration Utility), and other tools to simplify deployment and configuration.
+                                                    </p>
+                                                    <p>
+                                                        In addition to my technical role, I actively volunteered and organized multiple tech events at HP, fostering a culture of learning and collaboration.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="timeline-badge">
+                                        <a><i class="fa fa-circle invert" id=""></i></a>
+                                    </div>
+                                    <div class="timeline-panel">
+                                        <div class="timeline-heading">
+                                            <img src="assets/img/logo_HP.png" />
+                                            <h4>HP Inc., Bengaluru</h4>
+                                        </div>
+                                        <div class="timeline-body">
+                                            <ul class="profile-list">
+                                                <li class="clearfix">
+                                                    <strong class="title"><i class="fas fa-user-tie icon"></i> Designation</strong>
+                                                    <span class="cont">Software Designer (Specialist I)</span>
+                                                </li>
+                                                <li class="clearfix">
+                                                    <strong class="title"><i class="fa fa-briefcase icon"></i> Projects</strong>
+                                                    <span class="cont">HP Universal Printer Driver, Status Notification Panel, DDU (Driver Deployment Utility), DCU (Driver Configuration Utility), Intranet Web Portal etc.</span>
+                                                </li>
+                                            </ul>
+                                            <p class="text-center">
+                                                <a href="#" class="btn btn-info" data-toggle="modal" data-target="#modalHP">More Info</a>
+                                            </p>
+                                        </div>
+                                        <div class="timeline-footer">
+                                            <p class="text-right">Nov 2013 - Dec 2019</p>
+                                        </div>
+                                    </div>
+                                </li>
+
+                                <!-- Samsung -->
+                                <li class="timeline">
+                                    <!-- Modal -->
+                                    <div id="modalSamsung" class="modal fade" role="dialog">
+                                        <div class="modal-dialog">
+                                            <!-- Modal content-->
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                                    <h4 class="modal-title">Technical Lead <i class="fa fa-at" id=""></i> Samsung</h4>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <p>
+                                                        During my tenure at <strong>Samsung R&D Institute</strong>, I held multiple roles, progressing from Senior Software Engineer to Lead Engineer and eventually to <strong>Technical Lead</strong>.
+                                                    </p>
+                                                    <p>
+                                                        My primary responsibility was the design and development of printer applications for Samsung printers as well as for OEM partners such as HP, Xerox, Lenovo, and Dell. This involved requirement gathering, solution design, development, unit testing, and issue resolution.
+                                                    </p>
+                                                    <p>I also cleared "<strong>Intermediate Level</strong>" and <strong>"Advanced Level" Software Certification</strong>.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="timeline-badge">
+                                        <a><i class="fa fa-circle invert" id=""></i></a>
+                                    </div>
+                                    <div class="timeline-panel">
+                                        <div class="timeline-heading">
+                                            <img src="assets/img/logo_samsung.png" />
+                                            <h4>Samsung R&D Institute India, Bengaluru</h4>
+                                        </div>
+                                        <div class="timeline-body">
+                                            <ul class="profile-list">
+                                                <li class="clearfix">
+                                                    <strong class="title"><i class="fas fa-user-tie icon"></i> Designation</strong>
+                                                    <span class="cont">Technical Lead</span>
+                                                </li>
+                                                <li class="clearfix">
+                                                    <strong class="title"><i class="fa fa-briefcase icon"></i> Projects</strong>
+                                                    <span class="cont">Lite Status Monitor, Easy Driver Update, EDU packaging utility, OCR wrapper, OCR test tool, RC updater, String Merger, Office Time Monitor etc.</span>
+                                                </li>
+                                            </ul>
+                                            <p class="text-center">
+                                                <a href="#" class="btn btn-info" data-toggle="modal" data-target="#modalSamsung">More Info</a>
+                                            </p>
+                                        </div>
+                                        <div class="timeline-footer">
+                                            <p class="text-right">Dec 2013 – Oct 2017</p>
+                                        </div>
+                                    </div>
+                                </li>
+
+                                <!-- Honeywell -->
+                                <li class="timeline-inverted">
+                                    <!-- Modal -->
+                                    <div id="modalHoneywell" class="modal fade" role="dialog">
+                                        <div class="modal-dialog">
+                                            <!-- Modal content-->
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                                    <h4 class="modal-title">Software Engineer <i class="fa fa-at" id=""></i> Honeywell</h4>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <p>
+                                                        I joined <strong>Honeywell</strong> as a <strong>Software Engineer</strong>. Due to the contractual nature of the role, my tenure was brief. However, during this short period, I gained introductory insights into the aerospace domain and worked on a small assignment for the Flight Management System (FMS).
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="timeline-badge">
+                                        <a><i class="fa fa-circle invert" id=""></i></a>
+                                    </div>
+                                    <div class="timeline-panel">
+                                        <div class="timeline-heading">
+                                            <img src="assets/img/logo_honeywell.png" />
+                                            <h4>Honeywell Technology Solutions Lab, Bengaluru</h4>
+                                        </div>
+                                        <div class="timeline-body">
+                                            <ul class="profile-list">
+                                                <li class="clearfix">
+                                                    <strong class="title"><i class="fas fa-user-tie icon"></i> Designation</strong>
+                                                    <span class="cont">Software Engineer</span>
+                                                </li>
+                                                <li class="clearfix">
+                                                    <strong class="title"><i class="fa fa-briefcase icon"></i> Projects</strong>
+                                                    <span class="cont">Flight Management System (FMS)</span>
+                                                </li>
+                                            </ul>
+                                            <p class="text-center">
+                                                <a href="#" class="btn btn-info" data-toggle="modal" data-target="#modalHoneywell">More Info</a>
+                                            </p>
+                                        </div>
+                                        <div class="timeline-footer">
+                                            <p class="text-right">Apr 2013 – Aug 2013</p>
+                                        </div>
+                                    </div>
+                                </li>
+
+                                <!-- TRX -->
+                                <li class="timeline">
+                                    <!-- Modal -->
+                                    <div id="modalTRX" class="modal fade" role="dialog">
+                                        <div class="modal-dialog">
+                                            <!-- Modal content-->
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                                    <h4 class="modal-title">Software Engineer <i class="fa fa-at" id=""></i> TRX</h4>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <p>
+                                                        <strong>TRX Technologies</strong> was my first IT company after graduating with a <strong>B.Tech</strong> in <strong>Computer Engineering</strong>. I joined as <strong>Associate Software Engineer</strong>, where I worked closely with clients through Clientele CRM.
+                                                    </p>
+                                                    <p>
+                                                        My responsibilities included creating Functional Requirement Documents (FRD) and Software Requirement Specifications (SRS), developing CORREX routines, designing HTML/PDF email templates, and troubleshooting production issues..
+                                                    </p>
+                                                    <p>
+                                                        This role provided me with valuable insights into the travel industry and a deep understanding of Global Distribution Systems (GDS). I worked extensively with Sabre, Amadeus, Apollo, Galileo, and Worldspan to integrate travel solutions effectively.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="timeline-badge">
+                                        <a><i class="fa fa-circle" id=""></i></a>
+                                    </div>
+                                    <div class="timeline-panel">
+                                        <div class="timeline-heading">
+                                            <img src="assets/img/logo_trx.png" />
+                                            <h4>TRX Technologies India Pvt Ltd, Bengaluru</h4>
+                                        </div>
+                                        <div class="timeline-body">
+                                            <ul class="profile-list">
+                                                <li class="clearfix">
+                                                    <strong class="title"><i class="fas fa-user-tie icon"></i> Designation</strong>
+                                                    <span class="cont">Software Engineer</span>
+                                                </li>
+                                                <li class="clearfix">
+                                                    <strong class="title"><i class="fa fa-briefcase icon"></i> Projects</strong>
+                                                    <span class="cont">Online Reservation Setup, Schedule Change and Refund</span>
+                                                </li>
+                                            </ul>
+                                            <p class="text-center">
+                                                <a href="#" class="btn btn-info" data-toggle="modal" data-target="#modalTRX">More Info</a>
+                                            </p>
+                                        </div>
+                                        <div class="timeline-footer">
+                                            <p class="text-right">Dec 2010 – Apr 2013</p>
+                                        </div>
+                                    </div>
+                                </li>
+
+                                <!-- Maruti Suzuki -->
+                                <li class="timeline-inverted">
+                                    <!-- Modal -->
+                                    <div id="modalMaruti" class="modal fade" role="dialog">
+                                        <div class="modal-dialog">
+                                            <!-- Modal content-->
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                                    <h4 class="modal-title">Diploma Engineer Trainee <i class="fa fa-at" id=""></i> Maruti Suzuki</h4>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <p>
+                                                        After completing my, I was recruited through campus selection and joined <strong>Maruti Suzuki India Limited</strong> as <strong>Diploma Engineer Trainee I</strong> under
+                                                        apprenticeship program. I was assigned to the machine department of the production plant.
+                                                    </p>
+                                                    <p>
+                                                        Upon successfully completing the apprenticeship, I was promoted to <strong>Diploma Engineer Trainee II</strong>. My primary responsibility was to ensure the smooth operation of machines, troubleshoot issues during breakdowns, and modify PLC ladder logic as needed.
+                                                    </p>
+                                                    <p>
+                                                        I also designed and implemented a Graphical Operating Terminal (GOT) for one of the machines, enabling easier operation and reducing operating time. This implementation was initially done on a single machine, with plans to expand it plant-wide in the future.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="timeline-badge">
+                                        <a><i class="fa fa-circle invert" id=""></i></a>
+                                    </div>
+                                    <div class="timeline-panel">
+                                        <div class="timeline-heading">
+                                            <img src="assets/img/logo_maruti-suzuki.jpg"/>
+                                            <h4>Maruti Suzuki India Limited, Gurgaon</h4>
+                                        </div>
+                                        <div class="timeline-body">
+                                            <ul class="profile-list">
+                                                <li class="clearfix">
+                                                    <strong class="title"><i class="fas fa-user-tie icon"></i> Designation</strong>
+                                                    <span class="cont">Diploma Engineer Trainee</span>
+                                                </li>
+                                                <li class="clearfix">
+                                                    <strong class="title"><i class="fa fa-briefcase icon"></i> Projects</strong>
+                                                    <span class="cont">Preventive Maintenance, GOT (Graphic Operating Terminal) for Machines</span>
+                                                </li>
+                                            </ul>
+                                            <p class="text-center">
+                                                <a href="#" class="btn btn-info" data-toggle="modal" data-target="#modalMaruti">More Info</a>
+                                            </p>
+                                        </div>
+                                        <div class="timeline-footer primary">
+                                            <p class="text-right">Jul 2006 – Sep 2007</p>
+                                        </div>
+                                    </div>
+                                </li>
+
+                                <li class="clearfix no-float"></li>
+                            </ul>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--END WORK EXPERIENCE SECTION-->
+
+        <!-- EDUCATION SECTION-->
+        <section id="education">
+            <div class="container">
+                <div class="card">
+                    <div class="row g-pad-bottom">
+                        <div class="col-md-12 education-header text-center">
+                            <h2><i class="fas fa-graduation-cap" data-position="top" data-delay="50" data-tooltip="Education"></i> Education</h2>
+
+                            <div class="row text-center">
+                                <div class="col-md-3 col-sm-3 col-xs-6">
+                                    <div class="panel panel-primary">
+                                        <div class="panel-heading">
+                                            <h4>Secondary School (10<sup>th</sup>)</h4>
+                                        </div>
+                                        <div class="panel-body">
+                                            <div class="round-body">
+                                                <div class="price-main">
+                                                    <span class="price-Unit">
+                                                        77.17<small><i class="fa fa-percent"></i></small>
+                                                    </span>
+                                                    <small>2001</small>
+                                                </div>
+                                            </div>
+                                            <ul class="plan">
+                                                <li>&nbsp;</li>
+                                            </ul>
+                                            <a href="http://rajeduboard.rajasthan.gov.in/" target="_blank">Board of Secondary Education, Rajasthan</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 col-sm-3 col-xs-6">
+                                    <div class="panel panel-primary">
+                                        <div class="panel-heading">
+                                            <h4>Sr Secondary School (12<sup>th</sup>)</h4>
+                                        </div>
+                                        <div class="panel-body">
+                                            <div class="round-body">
+                                                <div class="price-main">
+                                                    <span class="price-Unit">
+                                                        72.92<small><i class="fa fa-percent"></i></small>
+                                                    </span>
+                                                    <small>2003</small>
+                                                </div>
+                                            </div>
+                                            <ul class="plan">
+                                                <li>PCM (Physics Chemistry Math)</li>
+                                            </ul>
+                                            <a href="http://rajeduboard.rajasthan.gov.in/" target="_blank">Board of Secondary Education, Rajasthan</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 col-sm-3 col-xs-6">
+                                    <div class="panel panel-primary">
+                                        <div class="panel-heading">
+                                            <h4>Polytechnic Diploma</h4>
+                                        </div>
+                                        <div class="panel-body">
+                                            <div class="round-body">
+                                                <div class="price-main">
+                                                    <span class="price-Unit">
+                                                        68.89<small><i class="fa fa-percent"></i></small>
+                                                    </span>
+                                                    <small>2003-2006</small>
+                                                </div>
+                                            </div>
+                                            <ul class="plan">
+                                                <li>Electronics & Comm. Engineering</li>
+                                            </ul>
+                                            <a href="http://techedu.rajasthan.gov.in/" target="_blank">Board of Technical Education, Rajasthan</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 col-sm-3 col-xs-6">
+                                    <div class="panel panel-primary">
+                                        <div class="panel-heading">
+                                            <h4>Bachelor Of Technology</h4>
+                                        </div>
+                                        <div class="panel-body">
+                                            <div class="round-body">
+                                                <div class="price-main">
+                                                    <span class="price-Unit">
+                                                        70.73<small><i class="fa fa-percent"></i></small>
+                                                    </span>
+                                                    <span class="honors">(Honors)</span>
+                                                    <small>2007-2010</small>
+                                                </div>
+                                            </div>
+                                            <ul class="plan">
+                                                <li>Computer & Science Engineering</li>
+                                            </ul>
+                                            <a href="http://www.rtu.ac.in/" target="_blank">Rajasthan Technical University, Kota</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--END EDUCATION SECTION-->
+
+        <!--SKILLS SECTION-->
+        <section id="skills">
+            <div class="container">
+                <div class="col l12 m12 s12 skills sidebar-item card">
+                    <div class="row g-pad-bottom">
+                        <div class="col-md-12 workEx-header text-center">
+                            <h2><i class="fas fa-tools" data-position="top" data-delay="50" data-tooltip="Skills"></i> Skills</h2>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="panel panel-primary">
+                                <div class="panel-heading">
+                                    <h4>PROFESSIONAL PROFILE</h4>
+                                </div>
+                                <div class="panel-body">
+                                    <ul class="profile-list">
+                                        <li class="clearfix"><i class="fa fa-star icon"></i> Experience in developing <strong>windows apps</strong> using <strong>C++/VC++/Win32/WTL</strong>.</li>
+                                        <li class="clearfix"><i class="fa fa-star icon"></i> Strong knowledge of <strong>C++11/14/17/20</strong> and <strong>OOPS Concepts</strong>.</li>
+                                        <li class="clearfix"><i class="fa fa-star icon"></i> Knowledge of <strong>TCP/IP/HTTP</strong> protocols, <strong>COM</strong>, <strong>MFC</strong> and <strong>NSIS</strong> scripts.</li>
+                                        <li class="clearfix"><i class="fa fa-star icon"></i> Responsible for designing, developing, integrating and making the release.</li>
+                                        <li class="clearfix"><i class="fa fa-star icon"></i> Have worked as <strong>Project Coordinator</strong> for 3 months at <strong>Samsung Electronics, Suwon, South Korea</strong>.</li>
+                                        <li class="clearfix"><i class="fa fa-star icon"></i> An <strong>open-source contributor</strong>and an <strong>active member of the Notepad++ development team</strong>, currently the second-highest contributor. I also develop and maintain multiple plugins for Notepad++.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="panel panel-primary">
+                                <div class="panel-heading">
+                                    <h4>TECHNICAL PROFILE</h4>
+                                </div>
+                                <div class="panel-body">
+                                    <ul class="profile-list">
+                                        <li class="clearfix">
+                                            <strong class="title"><i class="fa fa-code icon"></i> Languages</strong>
+                                            <span class="cont">C, C++</span>
+                                        </li>
+                                        <li class="clearfix">
+                                            <strong class="title"><i class="fab fa-windows icon"></i> Technologies</strong>
+                                            <span class="cont">VC++, Win32, WTL, STL, MFC, COM</span>
+                                        </li>
+                                        <li class="clearfix">
+                                            <strong class="title"><i class="fa fa-terminal icon"></i> Scripting</strong>
+                                            <span class="cont">NSIS (Installer script), Python</span>
+                                        </li>
+                                        <li class="clearfix">
+                                            <strong class="title"><i class="fa fa-database icon"></i> Database</strong>
+                                            <span class="cont">MySQL, sqlite3, MongoDB</span>
+                                        </li>
+                                        <li class="clearfix">
+                                            <strong class="title"><i class="fa fa-globe icon"></i> Web</strong>
+                                            <span class="cont">HTML, PHP, CSS, Bootstrap, JavaScript, NodeJS</span>
+                                        </li>
+                                        <li class="clearfix">
+                                            <strong class="title"><i class="fa fa-code-branch icon"></i> SCM</strong>
+                                            <span class="cont">ClearCase, Perforce, SVN, Git</span>
+                                        </li>
+                                        <li class="clearfix">
+                                            <strong class="title"><i class="fa fa-wrench icon"></i> Dev Tools</strong>
+                                            <span class="cont">Visual Studio, WinDBG, AppVerifier</span>
+                                        </li>
+                                        <li class="clearfix">
+                                            <strong class="title"><i class="fa fa-toolbox icon"></i> Other Tools</strong>
+                                            <span class="cont">Wireshark, Mib Browser, Bus Hound</span>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--END SKILLS SECTION-->
+
+
+        <!--MAP SECTION-->
+        <section id="map">
+            <div class="container">
+                <iframe  class="cnt" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d497699.9974096482!2d77.35073380357456!3d12.953847714450115!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae1670c9b44e6d%3A0xf8dfc3e8517e4fe0!2sBengaluru%2C%20Karnataka!5e0!3m2!1sen!2sin!4v1594161327196!5m2!1sen!2sin">
+                </iframe>
+                <div class="address">
+                    <i class="fas fa-map-marker-alt" data-position="top" data-delay="50" data-tooltip="twitter"> Address:</i> Bengaluru , Karnataka, India-560076
+                </div>
+            </div>
+        </section>
+        <!--END MAP SECTION-->
+
+        <!--FOOTER SECTION -->
+        <div id="footer">
+            Rajendra Singh | <i class="fas fa-copyright" data-position="top" data-delay="50" data-tooltip="copyright"></i> 2020-2025
+        </div>
+        <!-- END FOOTER SECTION -->
+
+        <!-- JAVASCRIPT FILES PLACED AT THE BOTTOM TO REDUCE THE LOADING TIME  -->
+        <!-- CORE JQUERY  -->
+        <script src="assets/plugins/jquery-1.10.2.js"></script>
+
+        <!-- BOOTSTRAP CORE SCRIPT   -->
+        <script src="assets/plugins/bootstrap.min.js"></script>
+
+        <!-- CUSTOM SCRIPTS -->
+        <script src="assets/js/custom.js"></script>
+    </body>
 </html>
